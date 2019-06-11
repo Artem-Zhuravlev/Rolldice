@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import Die from './components/Die/Die';
+import Rolldice from './components/Rolldice/Rolldice';
 
 function App() {
   return (
     <div className="App">
-      <Die face="five"/>
-      <Die face="six"/>
-      <Die face="three"/>
-      <Die face="two"/>
+      <Rolldice />
     </div>
   );
 }
